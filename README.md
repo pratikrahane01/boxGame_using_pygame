@@ -1,16 +1,67 @@
-# boxGame_using_pygame
-A beginner-friendly 2D box game developed using Python and Pygame. This project helped me learn game loops, keyboard controls, and basic animation.
+# 🎮 2D Box Dodge Game — Built with Python & Pygame
 
+A beginner-friendly 2D dodge game developed using **Python** and **Pygame**. This project helped me learn game loops, keyboard controls, collision detection, and basic animation.
 
-# 2D Box Game — Built with Python & Pygame 
-This is a simple 2D game that I created using Python and Pygame. In this game, a box moves around the screen when the player uses the keyboard keys. I built this project to learn the basics of game development, such as the game loop, movement, events, and collision handling.
+---
 
-The main goal of the project was not just to make a game, but to understand how games work behind the scenes — how objects move, how the screen updates, and how user input controls the game.
+## 📸 Screenshots
 
-# What the Game Does---
+### Gameplay
+![Gameplay Screenshot](screenshots/gameplay.png)
 
-You control a box on the screen
-You can move the box using the keyboard keys
-The box stays inside the game window and does not move outside
-The game keeps updating while you play using a game loop
-The project focuses on logic and learning, not on graphics
+### Game Over Screen
+![Game Over Screenshot](screenshots/game_over.png)
+
+---
+
+## 🕹️ How to Play
+
+- Use **← / →** arrow keys (or **A / D**) to move the blue box left and right
+- **Dodge** the falling red enemy boxes
+- Each enemy that passes you scores **+1 point**
+- The game ends when an enemy **hits your box**
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have Python and Pygame installed:
+```bash
+pip install pygame
+```
+
+### Run the Game
+```bash
+python 2D_box_game_basic.py
+```
+
+---
+
+## 🧠 What I Learned
+
+- Setting up a **Pygame game loop**
+- Handling **keyboard input** for player movement
+- Spawning and moving **enemy objects**
+- Implementing **collision detection** using `pygame.Rect`
+- Keeping score and displaying a **game over screen**
+
+---
+
+## 📁 Project Structure
+
+```
+boxGame_using_pygame/
+├── 2D_box_game_basic.py   # Main game file
+├── screenshots/
+│   ├── gameplay.png       # In-game screenshot
+│   └── game_over.png      # Game over screen
+└── README.md
+```
+
+---
+
+## 🛠️ Built With
+
+- **Python 3.x**
+- **Pygame**
